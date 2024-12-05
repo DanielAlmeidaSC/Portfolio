@@ -144,6 +144,17 @@ p{
     cursor: pointer;
 }
 
+    .rodape{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #0b5369;
+    height: 100px;
+    width: 100%;
+    bottom: 0%;
+    position: fixed;
+}
+
 main{
     padding: 10%;
 }
