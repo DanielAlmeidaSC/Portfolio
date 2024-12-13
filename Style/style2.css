@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand:wght@300..700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    height: 100%;
+    background-color: blanchedalmond;
+    box-sizing: border-box;
+}
+
+header{
+    text-align: center;
+    justify-content: center;
+    padding: 2%;
+    font-size: 1.87rem;
+}
+
+
+.text_decoration{
+    color: #0b5369;
+    text-decoration: none;
+    margin: 1.25rem;
+    font-family: "Zilla Slab", serif;
+    font-weight: bold;
+}
+
+.negrito{
+    color: brown;
+}
+
+h1{
+    font-size: 2rem; 
+    font-family: "Quicksand", sans-serif;
+}
+
+p{
+    font-family: "Zilla Slab", serif;
+    font-size: 1.5rem;
+}
+
+
+.rodape{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #0b5369;
+    height: 100px;
+    width: 100%;
+    bottom: 0%;
+}
+
+#textoRodape{
+    display: flex;
+    align-items: center;
+    color: antiquewhite;
+}
+
+.text_redes{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0b5369;
+    font-size: large;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.botoes_contato1{
+   cursor: pointer;
+   width: 250px;
+   margin: auto;
+   margin-bottom: 60px;
+   border-radius: 50px;
+   border: #0b5369 solid;
+   display: flex;
+   text-align: center;
+   justify-content: center;
+   padding: 10px;
+   height: 30px;
+   gap: 5px;
+   font-family: "Quicksand", sans-serif;
+            
+}
+
+
+.image_icon{
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.botoes_redes{
+    padding: 8.9%;
+}
+
+.titulo_redes{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: -3%;
+}
+
+.foto_contato{
+    justify-self: center;    
+    height: 500px;
+    display: flex;
+    margin-top: -70px;
+    margin-bottom: -180px;
+    cursor: pointer;
+}
+
+
+@media screen  and (max-width: 1200px ){
+    header{
+        text-align: center;
+        margin-top: 20px;
+        flex-direction: row;
+        font-size: 22px;
+    }
+    
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color:#095169;
+    font-family: "Quicksand", sans-serif;
+}
+
+p{
+    font-family: "Zilla Slab", serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: inherit;
+}
+.foto_contato{
+    justify-self: center;    
+    height: 200px;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 10%;
+    cursor: pointer;
+}
+
+main{
+    padding: 10%;
+}
+}
