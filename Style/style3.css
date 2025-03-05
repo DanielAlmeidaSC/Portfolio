@@ -26,6 +26,7 @@ header{
     margin: 1.25rem;
     font-family: "Zilla Slab", serif;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .negrito{
