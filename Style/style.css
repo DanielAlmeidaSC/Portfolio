@@ -36,8 +36,8 @@
         font-weight: bold;
         cursor: pointer;
     }
-
-    .negrito{
+    
+    #negrito{
         color: brown;
     }
 
@@ -129,7 +129,7 @@
         box-shadow: 2px 2px 50px brown;
     }
 
-    .rodape{
+    #rodape{
         text-align: center;
         display: flex;
         justify-content: center;
@@ -139,7 +139,7 @@
         width: 100%;
     }
 
-    #textoRodape{
+    .textoRodape{
         display: flex;
         align-items: center;
         color: antiquewhite;

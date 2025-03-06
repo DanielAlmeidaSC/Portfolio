@@ -54,7 +54,7 @@ p{
     bottom: 0%;
 }
 
-#textoRodape{
+.textoRodape{
     display: flex;
     align-items: center;
     color: antiquewhite;
